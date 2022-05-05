@@ -15,9 +15,9 @@ function isNumberPositive() {
 
 function convertDaysToAge() {
     const num = Number(document.getElementById('numberOfDays').value);
-    let age = Math.round(num / 365);
-    console.log(age);
+    const age = Math.round(num / 365);
+
     document.getElementById('daysToAgeAnswer').innerHTML = `${age}`;
 
-    return
+    return;
 };
